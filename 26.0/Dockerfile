@@ -9,4 +9,5 @@ RUN /usr/local/bin/flutter/bin/flutter precache --no-web --no-linux --no-windows
 RUN apt update
 RUN apt install -y ruby ruby-dev rubygems
 # Install fastlane.
-RUN gem install fastlane -NV
+RUN gem install rake -N --no-verbose
+RUN gem install fastlane -N --no-verbose
