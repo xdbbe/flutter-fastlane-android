@@ -4,6 +4,8 @@ versions:
   - 27.0
   - 28.0
   - 29.0
+  - 30.0
+  - 31.0
 parameters: {}
 template: |
   FROM cimg/android:<<version>>
